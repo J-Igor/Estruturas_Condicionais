@@ -1,0 +1,21 @@
+n1 = float(input('Digite a sua primeira nota: '))
+n2 = float(input('Digite a sua segunda nota: '))
+n3 = float(input('Digite a sua terceira nota: '))
+n4 = float(input('Digite a sua cuarta nota: '))
+n5 = float(input('Digite a quinta nota: '))
+n6 = float(input('Digite a sua sexta nota: '))
+n7 = float(input('Digite a sua séptima nota: '))
+n8 = float(input('Digite a sua octava nota: '))
+n9 = float(input('Digite a sua nona nota: '))
+n10 = float(input('Digite a sua décima nota: '))
+n11 = float(input('Digite a sua décima primeira nota: '))
+n12 = float(input('Digite a sua décima segunda nota: '))
+n13 = float(input('Digite a sua décima terceira nota: '))
+n14 = float(input('Digite a sua décima cuarta nota: '))
+n15 = float(input('Digite a sua décima quinta nota: '))
+média =(n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10 + n11 + n12 + n13 + n14 + n15) / 15
+print('A média entre {:.1f},{:.1f},{:.1f},{:.1f},{:.1f},{:.1f},{:.1f},{:.1f},{:.1f},{:.1f},{:.1f},{:.1f},{:.1f},{:.1f}, e {:.1f} é igual a {:.1f}'.format(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, média))
+if (média >= 7):
+    print('Parabéns, você foi aprovado!')
+elif(média < 7):
+    print('Reprovado')
